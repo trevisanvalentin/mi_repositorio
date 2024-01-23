@@ -8,7 +8,7 @@
     <title>contactanos</title>
 
 </head>
-<body>
+<body class="contactos">
     <header>
         <nav class="navbar navbar-expand-lg bg-body-tertiary navbar-color">
           <div class="container-fluid navbar-color">
@@ -16,22 +16,22 @@
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse nav-bar-container" id="navbarNav">
+            <div class="collapse navbar-collapse nav-bar-container nav-bar-flex" id="navbarNav">
               <ul class="navbar-nav">
                 <li class="nav-item">
-                  <a class="nav-link active nav-bar-container" aria-current="page" href="../index.html">inicio</a>
+                  <a class="nav-link nav-bar-container hover" aria-current="page" href="../index.html">inicio</a>
                 </li>
                 <li class="nav-item" >
-                  <a class="nav-link" href="productos.html">productos</a>
+                  <a class="nav-link hover" href="productos.html">productos</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="acercaproductos.html">nuestra calidad</a>
+                  <a class="nav-link hover" href="acercaproductos.html">nuestra calidad</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="aboutus.html">acerca de nosotros</a>
+                  <a class="nav-link hover" href="aboutus.html">acerca de nosotros</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="contactanos.html">contactanos</a>
+                  <a class="nav-link hover" href="contactanos.html">contactanos</a>
                 </li>
               </ul>
             </div>
@@ -39,11 +39,13 @@
         </nav>
       </header>
  
-    <main> 
-        <div class="tittle">
-            <h1>ponte en contacto con nosotros!</h1>
+    <main class="back-main"> 
+        <div>
+            <h1 class="tittle">ponte en contacto con nosotros!</h1>
+            <p class="p-contacto">si quieres comprar algun producto, ponerte en conectacto con nosotros para cosultar cualquier duda no dudes en contactarnos!</p>
         </div>
-        <div class="form-container">
+        <div class="form-container"> 
+            <p> rellene todos los datos para que nos pongamos en contacto.</p>
             <form action="" method="POST" class="form">
                 <label for="">Nombre:</label>
                 <input type="text" name="nombre" id="" placeholder="Nombre">
@@ -53,9 +55,8 @@
                 
                 <label>Email:</label>
                 <input type="email" name="email" placeholder="Email">
-
-                <label for="">mandanos tu mensaje:</label class="enviar-texto">
-                <input type="text" name="mandanos tu mensaje" id="" placeholder="mandanos tu mensaje">
+                <label>Envianos tu mensaje:</label>
+                <textarea name="mensaje" placeholder="mandanos tu mensaje"></textarea>
 
                 <input type="submit" value="enviar" class="botton">
 
@@ -65,7 +66,7 @@
 
     </main>
 
-    <footer class="bcolour">
+    <footer class="bcolour foter">
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas non ullam maiores debitis aliquam consectetur adipisci pariatur similique dolor consequuntur aliquid quae molestias atque laborum earum, et repudiandae quo temporibus!</p>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
